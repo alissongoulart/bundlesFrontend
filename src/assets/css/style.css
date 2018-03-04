@@ -105,7 +105,6 @@ body{
     font-weight: 700;
     text-decoration: none;
     line-height: 38px;
-    /*font-family: pf_dintext_probold;*/
 }
 .box-itens-title {
     color: #5a636f;
@@ -118,8 +117,14 @@ body{
 }
 .nav-title {
     min-height: 64px;
-    padding-left: 20px;
+    padding: 20px 0 0 40px;
     background-color: #18ccc0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+.nav-title a {
+    color: #fff;
 }
 .container{
     padding: 100px 300px 0 300px;
@@ -135,4 +140,7 @@ body{
     color: #000;
     font-size: 30px;
     font-family: 'Oxygen', sans-serif;
+}
+.rpc{
+    text-decoration: none;
 }
