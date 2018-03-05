@@ -2,6 +2,7 @@ const Broadband = {
     getData: function() {
         $.ajax({
             url: 'http://localhost:8000/list-all-broadband',
+            dataType: 'json',
             method:'POST'
         }).done(function(data){
             for (var i = 0; i < data.length; i++) {
